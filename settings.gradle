@@ -1,0 +1,2 @@
+include ':JsonCodecer'
+include ':SampleApp'

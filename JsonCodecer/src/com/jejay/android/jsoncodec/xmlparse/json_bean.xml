@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <bean name="Employ">
+        <attr name="firstName" alias="fn" type="String" />
+        <attr name="lastName" alias="ln" type="String" />
+        <attr name="age" nullable="true" type="int" />
+        <attr name="other" nullable="true" type="int[]" />
+    </bean>
+
+    <bean name="Employees">
+        <attr name="employees" alias="fn" type="Employ[]" />
+    </bean>
+
+</root>
